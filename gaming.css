@@ -1,0 +1,97 @@
+body {
+    width: 100%;
+    background: url(./fon-bg-top.jp) center top no-repeat, url(./fon-bg-bottom.jpg) center bottom no-repeat;
+    background-color: #040612;
+    text-transform: uppercase;
+    color: #fff;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Sono', sans-serif;
+}
+
+.Main{
+    
+    z-index: 1;
+    flex: 1;
+    display: flex;
+}
+.top-menu{
+     font-size: 15px;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 35px 10px;
+        font-weight: bold;
+        display: flex;
+        border-top: 2px solid rgba(0, 0, 0, 0)
+}
+.top-menu-left, .top-menu-right{
+    gap: 15rem;
+    display: flex;
+    list-style: none;
+
+}
+.top-menu-right{
+    margin-top: -2rem;
+    margin-left: 67rem;
+}
+.top-menu li a{
+    color:white;
+    text-decoration: none;
+    transition: ease 0.4s;
+}
+ul li a:hover{
+    color: #178ceb;
+    transition: ease-out .4s;
+    text-shadow: 1px 0px 1.8rem #178ceb;
+}
+ul li{
+    display: inline;
+}
+img{
+    position: absolute;
+}
+.logo{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.Flyfflogosize{
+    left: 53rem;
+    height: 8rem;
+    transition: .55s;
+}
+.Flyfflogosize:hover{
+    transform: scale(1.1)
+}
+.PricingBox{
+    margin-top: 15rem;
+    justify-content: center;
+    display: flex;
+}
+.Body{
+    width: 295px;
+    height: 260px;
+    text-align: center;
+    background-color:#3d97e0;
+    border-radius: 10px ;
+    padding: 25px;
+}
+.Product{
+    margin-bottom: 7.5px;
+    text-decoration: underline;
+    font-size: 25px;
+    -webkit-text-stroke: .5px rgb(0, 0, 0);
+}
+.Price{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.Features{
+    font-weight: bold;
+}
+.ButtonStyle{
+    background-color:#3d97e0;
+    border-radius: 5rem;
+}
+    
